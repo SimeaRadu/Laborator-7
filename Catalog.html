@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" type="text/css" href="Catalog.css">
+<title >Catalog Elevi</title>
+</head>
+<body>
+<h1>Catalog Elevi </h1>
+<div class="slideshow-container">
+
+    <div class="mySlides fade">
+        <img src="Andrei.jpg" style="width:100%">
+        <div class="text">
+            <a href = "Site_Andrei.html" >Perseca Andrei</a>
+        </div>
+    </div>
+
+    <div class="mySlides fade">
+        <img src="gata.jpg" style="width:100%">
+        <div class="text">
+            <a href="Site_Gabriela.html">Petras Gabriela </a>
+        </div>
+    </div>
+
+    <div class="mySlides fade">
+        <img src="Imagine.jpg" style="width:100%">
+        <div class="text">
+            <a href = "Site_David.html"> Rosca David </a>
+        </div>
+    
+    </div>
+  
+<div class="mySlides fade">
+        <img src="Radu.jpg" style="width:100%">
+        <div class="text">
+            <a href = "Site_Radu.html"> Simea Radu </a>
+        </div>
+    
+    </div>
+</div>
+<div style="text-align:center">
+    <span class="dot"></span>
+    <span class="dot"></span>
+    <span class="dot"></span>
+    <span class="dot"></span>
+</div>
+<script>
+
+    var slideIndex = 0;
+    showSlides();
+
+    function showSlides() {
+        var i;
+        var slides = document.getElementsByClassName("mySlides");
+        var dots = document.getElementsByClassName("dot");
+        for (i = 0; i < slides.length; i++) {
+            slides[i].style.display = "none";
+        }
+        slideIndex++;
+        if (slideIndex > slides.length) {slideIndex = 1}
+        for (i = 0; i < dots.length; i++) {
+            dots[i].className = dots[i].className.replace(" active", "");
+        }
+        slides[slideIndex-1].style.display = "block";
+        dots[slideIndex-1].className += " active";
+        setTimeout(showSlides, 3000);
+    }
+</script>
+<p></p>
+<li id="Student"> Perseca Andrei</li>
+<li id="Student"> Petras Gabriela</li>
+<li id="Student"> Rosca David</li>
+<li id="Student"> Simea Radu</li>
+</body>
+</html>

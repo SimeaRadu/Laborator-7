@@ -1,0 +1,28 @@
+h1 { font-size: 40px;}
+h2 {font-size: 25px;}
+p {font-size: 20px;}
+img { display: block;
+  margin-left: auto;
+  margin-right: auto;
+  max-width: 100%;
+  height: auto;
+}
+#p1 { text-align: center;
+  color: purple;
+  font-family: "Lucida Handwriting";
+  }
+  
+  #p2 {color:red;
+  font-family: "Lucida Console", "Courier New", monospace;}
+  body {background-color: pink;}
+  table, th, td {
+  border: 1px solid purple;
+ 
+}
+table {
+  width: 50%;
+}
+li.outset {border-style: outset;}
+#rcorners { border-radius: 30px;
+height="300"
+}

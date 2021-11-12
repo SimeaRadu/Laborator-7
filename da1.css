@@ -1,0 +1,43 @@
+
+img{
+border-radius:35%;
+opacity:90%;
+}
+ul,h1{
+color:white;
+}
+td,li,th{
+color:sandybrown;
+}
+tr{
+color:black;
+}
+h3{
+color:white;
+}
+body{
+text-align:center;
+font-family:"Arial",Helvetica,sans-serif;
+background-size: 100% 100%;
+background-color: gray;
+background-image: url("R.jpg");
+background-repeat:no-repeat;
+}
+p{
+color:white;
+  background-color:sandybrown;
+  opacity: 90%;
+}
+h1{
+font-size: 35px;
+background-color: sandybrown;
+opacity: 90%;  
+}
+h3{
+  background-color: sandybrown;
+  opacity: 90%;
+}
+table, th, td {
+	position: relative;
+  border:1px solid gray;
+}
